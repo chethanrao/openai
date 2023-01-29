@@ -1,6 +1,5 @@
 import os
 import openai
-import config
 #create the api key from here:https://beta.openai.com/account/api-keys
 openai.api_key = <insert key here>
 response = openai.Completion.create(
