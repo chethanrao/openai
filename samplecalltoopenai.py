@@ -2,7 +2,7 @@ import os
 import openai
 import config
 #create the api key from here:https://beta.openai.com/account/api-keys
-openai.api_key = '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'
+openai.api_key = <insert key here>
 response = openai.Completion.create(
 engine="davinci",
 prompt="How was universe created?\n\n1.",
